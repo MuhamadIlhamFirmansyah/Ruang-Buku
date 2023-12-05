@@ -131,7 +131,7 @@ if "produk_buku" not in st.session_state:
         {"judul": "A Fine Balance", "harga": 35000, "stok": 10},
         {"judul": "A Time to Kill", "harga": 57500, "stok": 5},
         {"judul": "Big Cherry Holler: A Big Stone Gap Novel", "harga": 25000, "stok": 8},
-        {"judul": "Pulau Misteri : Petualangan di Nusantara", "harga": 45000, "stok": 15},
+        {"judul": "Pulau Misteri : Petualangan di Nusantara", "harga": 45000, "stok": 15}
     ]
 
 if "keranjang" not in st.session_state:
