@@ -71,7 +71,7 @@ if choice == "Profile":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Profile Tim/Ilham.jpg")
+        image = Image.open(r"Profile Tim/Ilham.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Muhamad Ilham Firmansyah</p>", unsafe_allow_html=True)
         st.write("Data Engineering & Full Stack Developer")
