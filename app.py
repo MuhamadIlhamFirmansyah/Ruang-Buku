@@ -58,7 +58,7 @@ if choice == "Home":
     with col1:
         st.write("E-Commerce Ruang Buku tercipta karena melihat dari kehidupan nyata yang dimana buku-buku yang sudah tidak terpakai bingung untuk dikemanakan. Menurut kami rasanya sayang jika buku-buku tersebut tidak dimanfaatkan kembali. Sehingga kami menciptakan E-Commerce Ruang Buku yaitu wadah/platform untuk pemanfaatan buku bekas yang masih layak untuk dipergunakan kembali")
     with col2:
-        image = Image.open(r"C:\Users\ASUS\Desktop\Ruang Buku\Ruang Buku.png")
+        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Ruang Buku.png")
         st.image(image,width =200)
 
 
@@ -71,19 +71,19 @@ if choice == "Profile":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        image = Image.open(r"C:\Users\ASUS\Desktop\Ruang Buku\Profile Tim\Ilham.jpg")
+        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Profile Tim/Ilham.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Muhamad Ilham Firmansyah</p>", unsafe_allow_html=True)
         st.write("Data Engineering & Full Stack Developer")
 
     with col2:
-        image = Image.open(r"C:\Users\ASUS\Desktop\Ruang Buku\Profile Tim\Pedro.jpg")
+        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Profile Tim/Pedro.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Michel Mauliate Pedro Gultom</p>", unsafe_allow_html=True)
         st.write("Machine Learning Engineering & Data Engineering")
 
     with col3:
-        image = Image.open(r"C:\Users\ASUS\Desktop\Ruang Buku\Profile Tim\Wendy.jpg")
+        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Profile Tim/Wendy.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Wendi Wildiansyah</p>", unsafe_allow_html=True)
         st.write("Ketua Tim,Technical Writer & Voice Actor Videografi")
@@ -91,19 +91,19 @@ if choice == "Profile":
     col4, col5, col6 = st.columns(3)
 
     with col4:
-        image = Image.open(r"C:\Users\ASUS\Desktop\Ruang Buku\Profile Tim\DeTon.jpg")
+        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Profile Tim/DeTon.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Dede Toni</p>", unsafe_allow_html=True)
         st.write("Technical Writer & Editor Video ")
 
     with col5:
-        image = Image.open(r"C:\Users\ASUS\Desktop\Ruang Buku\Profile Tim\Futuh.jpg")
+        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Profile Tim/Futuh.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Futuh Balad</p>", unsafe_allow_html=True)
         st.write("UI/UX Design & Tecnical Writer")
 
     with col6:
-        image = Image.open(r"C:\Users\ASUS\Desktop\Ruang Buku\Profile Tim\Shafa.jpg")
+        image = Image.open(r"C:/Users/ASUS/Desktop/Ruang Buku/Profile Tim/Shafa.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Shafa Aulia Rizky Prameswari</p>", unsafe_allow_html=True)
         st.write("Technical Writer & Design Logo Web")
