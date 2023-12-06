@@ -46,7 +46,7 @@ with st.sidebar:
     choice = option_menu('Dashboard Ruang Buku', ("Home", "Profile", "Store", "Chatbot"), 
     menu_icon="chat-text-fill",
     default_index=1)
-    st.sidebar.image ('Ruang Buku/Ruang Buku.png' ,width=150 )
+    st.sidebar.image ('Ruang Buku.png' ,width=150 )
 
 
 
