@@ -71,13 +71,13 @@ if choice == "Profile":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        image = Image.open(r"Profile Tim/Ilham.jpg")
+        image = Image.open("Profile Tim/Ilham.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Muhamad Ilham Firmansyah</p>", unsafe_allow_html=True)
         st.write("Data Engineering & Full Stack Developer")
 
     with col2:
-        image = Image.open(r"/Profile Tim/Pedro.jpg")
+        image = Image.open(r"Profile Tim/Pedro.jpg")
         st.image(image, width=150)
         st.markdown("<p style='text-align:center; font-size:18px;'>Michel Mauliate Pedro Gultom</p>", unsafe_allow_html=True)
         st.write("Machine Learning Engineering & Data Engineering")
