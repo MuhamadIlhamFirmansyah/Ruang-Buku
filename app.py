@@ -58,7 +58,7 @@ if choice == "Home":
     with col1:
         st.write("E-Commerce Ruang Buku tercipta karena melihat dari kehidupan nyata yang dimana buku-buku yang sudah tidak terpakai bingung untuk dikemanakan. Menurut kami rasanya sayang jika buku-buku tersebut tidak dimanfaatkan kembali. Sehingga kami menciptakan E-Commerce Ruang Buku yaitu wadah/platform untuk pemanfaatan buku bekas yang masih layak untuk dipergunakan kembali")
     with col2:
-        image = Image.open(r"Ruang Buku/Ruang Buku.png")
+        image = Image.open(r"Ruang Buku.png")
         st.image(image,width =200)
 
 
